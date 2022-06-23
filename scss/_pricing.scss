@@ -1,0 +1,117 @@
+.pricing{
+    .card{
+        border-radius: 0;
+        padding: 40px 30px;
+
+        .card-icon{
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            background: $mainColor;
+            color: #fff;
+            text-align: center;
+            font-size: 48px;
+            line-height: 96px;
+            margin-bottom: 35px;
+            margin-left: 10px;
+        }
+        .card-title{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0.1px;
+            color: #252B42;
+            text-transform: uppercase;
+            padding-bottom: 35px;
+            
+        }
+        .card-subtitle{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: #737373;
+            padding-bottom: 35px;
+        }
+        .card-price{
+            padding-bottom: 35px;
+            .price{
+                display: block;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                letter-spacing: 0.2px;
+                color: $mainColor;
+            }
+            span{
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                color: #8EC2F2;
+            }
+        }        
+    }
+    .icon-green{
+        width: 32px;
+        height: 32px;
+        padding: 5px 12px;
+        background: #2DC071;
+        color: #fff;
+        border-radius: 200px;
+        line-height: 50px;
+        font-size: 28px;
+        margin-right: 15px;
+        
+    }
+
+    .icon{
+        width: 32px;
+        height: 32px;
+        padding: 5px 12px;
+        background: #BDBDBD;
+        color: #fff;
+        border-radius: 200px;
+        line-height: 50px;
+        font-size: 28px;
+        margin-right: 15px;
+        
+        
+    }
+
+
+
+    .card-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #737373;
+        padding-bottom: 35px;
+    }
+
+    .btn-price{
+        padding: 15px 40px;
+        gap: 10px;
+        width: 243px;
+        background: $mainColor;
+        border-radius: 5px;
+        margin-bottom: 35px;
+        border: none;
+    }
+    .list-group{
+        border: none;
+        .list-group-item{
+            border: none;
+            p{
+                display: contents;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                color: #252B42;
+            }
+        }
+    }
+
+}
